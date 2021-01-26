@@ -1,8 +1,8 @@
 {
-  "name": "Emacs shortcuts IME",
+  "name": "Deutsche Tastatur mit Shortcuts",
   "version": "0.0.3",
   "manifest_version": 2,
-  "description": "DE keyboard with emacs shortcut",
+  "description": "Deutsche Tastatur mit Shortcuts",
   "background": {
     "scripts": [
       "main.js"
@@ -13,55 +13,55 @@
   ],
   "commands": {
     "00-up": {
-      "description": "Go Up (Ctrl+P)"
+      "description": "Go Up"
     },
     "01-down": {
-      "description": "Go Down (Ctrl+N)"
+      "description": "Go Down"
     },
     "02-left": {
-      "description": "Go Left (Ctrl+B)",
+      "description": "Go Left",
       "suggested_key": {
         "default": "Ctrl+B"
       }
     },
     "03-right": {
-      "description": "Go Right (Crtl+F)"
+      "description": "Go Right"
     },
     "10-home": {
-      "description": "Go Home (Ctrl+A)"
+      "description": "Go Home"
     },
     "11-end": {
-      "description": "Go End (Ctrl+E)",
+      "description": "Go End",
       "suggested_key": {
         "default": "Ctrl+E"
       }
     },
     "20-delete": {
-      "description": "Delete (Ctrl+D)"
+      "description": "Delete"
     },
     "30-backspace": {
-      "description": "Backspace (Ctrl+H)"
+      "description": "Backspace"
     },
     "40-enter": {
-      "description": "Enter (Ctrl+M)",
+      "description": "Enter",
       "suggested_key": {
         "default": "Ctrl+M"
       }
     },
     "50-killend": {
-      "description": "Kill line (Ctrl-K)"
+      "description": "Kill line"
     },
     "60-cut": {
-      "description": "Cut (Ctrl+W)"
+      "description": "Cut"
     },
     "61-paste": {
-      "description": "Paste (Ctrl+Y)",
+      "description": "Paste",
       "suggested_key": {
         "default": "Ctrl+Y"
       }
     },
     "90-original-ctrl-f": {
-      "description": "Original Ctrl+F (not working)"
+      "description": "Original Ctrl+F"
     }
   },
   "browser_action": {
@@ -74,10 +74,10 @@
   },
   "input_components": [
     {
-      "name": "DE (Emacs)",
+      "name": "Deutsche Tastatur mit Shortcuts",
       "type": "ime",
-      "id": "de_emacs_shourtcuts",
-      "description": "DE keyboard with emacs shortcut",
+      "id": "Deutsche_Tastatur_mit_Shortcuts",
+      "description": "Deutsche Tastatur mit Shortcuts",
       "language": "de",
       "layouts": ["de"]
     }
