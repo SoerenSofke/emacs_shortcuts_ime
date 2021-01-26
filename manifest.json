@@ -13,49 +13,49 @@
   ],
   "commands": {
     "00-up": {
-      "description": "Go Up"
+      "description": "🡅"
     },
     "01-down": {
-      "description": "Go Down"
+      "description": "🡇"
     },
     "02-left": {
-      "description": "Go Left",
+      "description": "🡄",
       "suggested_key": {
         "default": "Ctrl+B"
       }
     },
     "03-right": {
-      "description": "Go Right"
+      "description": "🡆"
     },
     "10-home": {
-      "description": "Go Home"
+      "description": "Zum Zeilenanfang"
     },
     "11-end": {
-      "description": "Go End",
+      "description": "Zum Zeilenende",
       "suggested_key": {
         "default": "Ctrl+E"
       }
     },
     "20-delete": {
-      "description": "Delete"
+      "description": "Löschtaste"
     },
     "30-backspace": {
-      "description": "Backspace"
+      "description": "Rücktaste"
     },
     "40-enter": {
-      "description": "Enter",
+      "description": "Eingabetaste",
       "suggested_key": {
         "default": "Ctrl+M"
       }
     },
     "50-killend": {
-      "description": "Kill line"
+      "description": "Lösche bis zum Zeilenende"
     },
     "60-cut": {
-      "description": "Cut"
+      "description": "Ausschneiden"
     },
     "61-paste": {
-      "description": "Paste",
+      "description": "Einfügen",
       "suggested_key": {
         "default": "Ctrl+Y"
       }
