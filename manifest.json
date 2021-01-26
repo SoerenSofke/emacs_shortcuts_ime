@@ -78,10 +78,8 @@
       "type": "ime",
       "id": "de_emacs_shourtcuts",
       "description": "DE keyboard with emacs shortcut",
-      "language": "de-DE",
-      "layouts": [
-        "de"
-      ]
+      "language": "de",
+      "layouts": ["de"]
     }
   ]
 }
