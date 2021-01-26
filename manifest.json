@@ -2,7 +2,7 @@
   "name": "Emacs shortcuts IME",
   "version": "0.0.3",
   "manifest_version": 2,
-  "description": "US keyboard with emacs shortcut",
+  "description": "DE keyboard with emacs shortcut",
   "background": {
     "scripts": [
       "main.js"
@@ -74,13 +74,13 @@
   },
   "input_components": [
     {
-      "name": "US (Emacs)",
+      "name": "DE (Emacs)",
       "type": "ime",
-      "id": "us_emacs_shourtcuts",
-      "description": "US keyboard with emacs shortcut",
-      "language": "en-US",
+      "id": "de_emacs_shourtcuts",
+      "description": "DE keyboard with emacs shortcut",
+      "language": "de-DE",
       "layouts": [
-        "us"
+        "de"
       ]
     }
   ]
